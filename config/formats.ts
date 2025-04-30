@@ -111,6 +111,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['DUber', 'Shadow Tag'],
 	},
 	{
+		name: "[Gen 9] Doubles UU",
+		mod: 'gen9',
+		gameType: 'doubles',
+		ruleset: ['[Gen 9] Doubles OU'],
+		banlist: ['DOU', 'DBL'],
+	},
+	{
 		name: "[Gen 9] Anything Goes",
 		mod: 'gen9',
 		ruleset: ['Min Source Gen = 9', 'Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause'],
