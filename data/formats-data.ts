@@ -4343,7 +4343,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     meowscarada: {
       tier: "OU",
-      doublesTier: "DOU",
+      doublesTier: "(DOU)",
     },
     fuecoco: {
       tier: "LC",
@@ -4353,7 +4353,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     skeledirge: {
       tier: "UU",
-      doublesTier: "DUU",
+      doublesTier: "(DUU)",
     },
     quaxly: {
       tier: "LC",
