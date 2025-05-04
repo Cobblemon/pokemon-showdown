@@ -298,7 +298,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       tier: "UU",
     },
     diglett: {
-      tier: "LC",
+      tier: "Uber",
     },
     diglettalola: {
       tier: "LC",
@@ -3213,7 +3213,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       tier: "LC",
     },
     toxapex: {
-      tier: "OU",
+      tier: "Uber",
     },
     mudbray: {
       tier: "LC",
@@ -3876,7 +3876,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       tier: "UU",
     },
     dracovish: {
-      tier: "OU",
+      tier: "Uber",
     },
     arctovish: {
       tier: "UU",
@@ -4242,7 +4242,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       tier: "LC",
     },
     gholdengo: {
-      tier: "OU",
+      tier: "Uber",
     },
     greattusk: {
       isNonstandard: "Past",
