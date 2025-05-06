@@ -503,8 +503,8 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       doublesTier: "DUU",
     },
     slowkinggalar: {
-      tier: "UU",
-      doublesTier: "DUU",
+      tier: "OU",
+      doublesTier: "DOU",
     },
     magnemite: {
       tier: "LC",
@@ -2408,8 +2408,8 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       doublesTier: "DUU",
     },
     samurotthisui: {
-      tier: "UU",
-      doublesTier: "DUU",
+      tier: "OU",
+      doublesTier: "DOU",
     },
     patrat: {
       tier: "LC",
@@ -3279,8 +3279,8 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       doublesTier: "DUU",
     },
     goodrahisui: {
-      tier: "UU",
-      doublesTier: "DUU",
+      tier: "OU",
+      doublesTier: "DOU",
     },
     klefki: {
       tier: "UU",
@@ -4723,11 +4723,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
       doublesTier: "DUU",
     },
     toedscool: {
-      tier: "LC",
+      isNonstandard: "Past",
+      tier: "Illegal",
     },
     toedscruel: {
-      tier: "UU",
-      doublesTier: "DUU",
+      isNonstandard: "Past",
+      tier: "Illegal",
     },
     kingambit: {
       isNonstandard: "Past",
