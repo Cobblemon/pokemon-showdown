@@ -8,6 +8,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     venusaur: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     venusaurmega: {
       isNonstandard: "Past",
@@ -25,6 +26,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     charizard: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     charizardmegax: {
       isNonstandard: "Past",
@@ -46,6 +48,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     blastoise: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     blastoisemega: {
       isNonstandard: "Past",
@@ -63,6 +66,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     butterfree: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     butterfreegmax: {
       isNonstandard: "Past",
@@ -76,6 +80,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     beedrill: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     beedrillmega: {
       isNonstandard: "Past",
@@ -89,6 +94,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     pidgeot: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pidgeotmega: {
       isNonstandard: "Past",
@@ -102,9 +108,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     raticate: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     raticatealola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     raticatealolatotem: {
       isNonstandard: "Past",
@@ -115,12 +123,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     fearow: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ekans: {
       tier: "LC",
     },
     arbok: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pichu: {
       tier: "LC",
@@ -131,6 +141,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     pikachu: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pikachucosplay: {
       isNonstandard: "Past",
@@ -198,9 +209,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     raichu: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     raichualola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sandshrew: {
       tier: "Uber",
@@ -224,6 +237,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     nidoqueen: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     nidoranm: {
       tier: "LC",
@@ -233,6 +247,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     nidoking: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cleffa: {
       tier: "LC",
@@ -242,6 +257,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     clefable: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     vulpix: {
       tier: "LC",
@@ -251,6 +267,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ninetales: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ninetalesalola: {
       tier: "Uber",
@@ -263,6 +280,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     wigglytuff: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     zubat: {
       tier: "LC",
@@ -272,6 +290,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     crobat: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     oddish: {
       tier: "LC",
@@ -281,21 +300,25 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     vileplume: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     bellossom: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     paras: {
       tier: "LC",
     },
     parasect: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     venonat: {
       tier: "LC",
     },
     venomoth: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     diglett: {
       tier: "Uber",
@@ -308,6 +331,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     dugtrioalola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     meowth: {
       tier: "LC",
@@ -324,24 +348,29 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     persian: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     persianalola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     perrserker: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     psyduck: {
       tier: "LC",
     },
     golduck: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mankey: {
       tier: "LC",
     },
     primeape: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     growlithe: {
       tier: "LC",
@@ -352,6 +381,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     arcanine: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     arcaninehisui: {
       isNonstandard: "Past",
@@ -365,9 +395,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     poliwrath: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     politoed: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     abra: {
       tier: "LC",
@@ -377,6 +409,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     alakazam: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     alakazammega: {
       isNonstandard: "Past",
@@ -390,6 +423,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     machamp: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     machampgmax: {
       isNonstandard: "Past",
@@ -403,12 +437,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     victreebel: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tentacool: {
       tier: "LC",
     },
     tentacruel: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     geodude: {
       tier: "LC",
@@ -424,9 +460,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     golem: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     golemalola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ponyta: {
       tier: "LC",
@@ -436,9 +474,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     rapidash: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     rapidashgalar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     slowpoke: {
       tier: "LC",
@@ -448,6 +488,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     slowbro: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     slowbromega: {
       isNonstandard: "Past",
@@ -455,42 +496,51 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     slowbrogalar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     slowking: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     slowkinggalar: {
-      tier: "UU",
+      tier: "OU",
+      doublesTier: "DOU",
     },
     magnemite: {
       tier: "LC",
     },
     magneton: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     magnezone: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     farfetchd: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     farfetchdgalar: {
       tier: "NFE",
     },
     sirfetchd: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     doduo: {
       tier: "LC",
     },
     dodrio: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     seel: {
       tier: "LC",
     },
     dewgong: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     grimer: {
       tier: "LC",
@@ -501,6 +551,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     muk: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mukalola: {
       isNonstandard: "Past",
@@ -511,6 +562,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     cloyster: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gastly: {
       tier: "LC",
@@ -520,6 +572,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gengar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gengarmega: {
       isNonstandard: "Past",
@@ -534,6 +587,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     steelix: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     steelixmega: {
       isNonstandard: "Past",
@@ -544,12 +598,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     hypno: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     krabby: {
       tier: "LC",
     },
     kingler: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     kinglergmax: {
       isNonstandard: "Past",
@@ -563,27 +619,33 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     electrode: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     electrodehisui: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     exeggcute: {
       tier: "LC",
     },
     exeggutor: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     exeggutoralola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cubone: {
       tier: "LC",
     },
     marowak: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     marowakalola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     marowakalolatotem: {
       isNonstandard: "Past",
@@ -594,24 +656,29 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     hitmonlee: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     hitmonchan: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     hitmontop: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lickitung: {
       tier: "LC",
     },
     lickilicky: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     koffing: {
       tier: "LC",
     },
     weezing: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     weezinggalar: {
       isNonstandard: "Past",
@@ -622,27 +689,33 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     rhydon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     rhyperior: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     happiny: {
       tier: "LC",
     },
     chansey: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     blissey: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tangela: {
       tier: "LC",
     },
     tangrowth: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     kangaskhan: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     kangaskhanmega: {
       isNonstandard: "Past",
@@ -656,24 +729,28 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     kingdra: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     goldeen: {
       tier: "LC",
     },
     seaking: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     staryu: {
       tier: "LC",
     },
     starmie: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mimejr: {
       tier: "LC",
     },
     mrmime: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mrmimegalar: {
       isNonstandard: "Past",
@@ -685,9 +762,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     scyther: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     scizor: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     scizormega: {
       isNonstandard: "Past",
@@ -695,12 +774,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     kleavor: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     smoochum: {
       tier: "LC",
     },
     jynx: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     elekid: {
       tier: "LC",
@@ -710,6 +791,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     electivire: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     magby: {
       tier: "LC",
@@ -719,9 +801,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     magmortar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pinsir: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pinsirmega: {
       isNonstandard: "Past",
@@ -729,21 +813,26 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     tauros: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     taurospaldeacombat: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     taurospaldeablaze: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     taurospaldeaaqua: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     magikarp: {
       tier: "LC",
     },
     gyarados: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gyaradosmega: {
       isNonstandard: "Past",
@@ -751,6 +840,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     lapras: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     laprasgmax: {
       isNonstandard: "Past",
@@ -758,6 +848,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ditto: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     eevee: {
       tier: "LC",
@@ -772,27 +863,34 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     vaporeon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     jolteon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     flareon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     espeon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     umbreon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     leafeon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     glaceon: {
       tier: "Uber",
     },
     sylveon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     porygon: {
       tier: "LC",
@@ -802,21 +900,25 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     porygonz: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     omanyte: {
       tier: "LC",
     },
     omastar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     kabuto: {
       tier: "LC",
     },
     kabutops: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     aerodactyl: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     aerodactylmega: {
       isNonstandard: "Past",
@@ -827,6 +929,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     snorlax: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     snorlaxgmax: {
       isNonstandard: "Past",
@@ -864,6 +967,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     dragonite: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     mewtwo: {
       isNonstandard: "Past",
@@ -889,6 +993,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     meganium: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cyndaquil: {
       tier: "LC",
@@ -898,9 +1003,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     typhlosion: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     typhlosionhisui: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     totodile: {
       tier: "LC",
@@ -910,36 +1017,42 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     feraligatr: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sentret: {
       tier: "LC",
     },
     furret: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     hoothoot: {
       tier: "LC",
     },
     noctowl: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ledyba: {
       tier: "LC",
     },
     ledian: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     spinarak: {
       tier: "LC",
     },
     ariados: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     chinchou: {
       tier: "LC",
     },
     lanturn: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     togepi: {
       isNonstandard: "Past",
@@ -958,6 +1071,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     xatu: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mareep: {
       tier: "LC",
@@ -967,6 +1081,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ampharos: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ampharosmega: {
       isNonstandard: "Past",
@@ -989,6 +1104,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     sudowoodo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     hoppip: {
       isNonstandard: "Past",
@@ -1007,18 +1123,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ambipom: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sunkern: {
       tier: "LC",
     },
     sunflora: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     yanma: {
       tier: "LC",
     },
     yanmega: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     wooper: {
       tier: "LC",
@@ -1028,18 +1147,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     quagsire: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     murkrow: {
       tier: "LC",
     },
     honchkrow: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     misdreavus: {
       tier: "LC",
     },
     mismagius: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     unown: {
       isNonstandard: "Past",
@@ -1056,12 +1178,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     farigiraf: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pineco: {
       tier: "LC",
     },
     forretress: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     dunsparce: {
       isNonstandard: "Past",
@@ -1080,27 +1204,34 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gliscor: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     snubbull: {
       tier: "LC",
     },
     granbull: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     qwilfish: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     qwilfishhisui: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     overqwil: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shuckle: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     heracross: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     heracrossmega: {
       isNonstandard: "Past",
@@ -1114,6 +1245,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     weavile: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sneasler: {
       tier: "UUBL",
@@ -1123,9 +1255,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ursaring: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ursaluna: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ursalunabloodmoon: {
       isNonstandard: "Past",
@@ -1136,6 +1270,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     magcargo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     swinub: {
       tier: "LC",
@@ -1145,9 +1280,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     mamoswine: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     corsola: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     corsolagalar: {
       isNonstandard: "Past",
@@ -1162,18 +1299,22 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     octillery: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     delibird: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mantyke: {
       tier: "LC",
     },
     mantine: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     skarmory: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     houndour: {
       isNonstandard: "Past",
@@ -1192,18 +1333,22 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     donphan: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     stantler: {
       tier: "NFE",
     },
     wyrdeer: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     smeargle: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     miltank: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     raikou: {
       isNonstandard: "Past",
@@ -1225,6 +1370,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     tyranitar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tyranitarmega: {
       isNonstandard: "Past",
@@ -1250,6 +1396,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     sceptile: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     sceptilemega: {
       isNonstandard: "Past",
@@ -1263,6 +1410,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     blaziken: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     blazikenmega: {
       isNonstandard: "Past",
@@ -1276,6 +1424,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     swampert: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     swampertmega: {
       isNonstandard: "Past",
@@ -1286,6 +1435,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     mightyena: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     zigzagoon: {
       tier: "LC",
@@ -1295,12 +1445,15 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     linoone: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     linoonegalar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     obstagoon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     wurmple: {
       isNonstandard: "Past",
@@ -1330,6 +1483,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ludicolo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     seedot: {
       tier: "LC",
@@ -1339,18 +1493,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     shiftry: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     taillow: {
       tier: "LC",
     },
     swellow: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     wingull: {
       tier: "LC",
     },
     pelipper: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     ralts: {
       tier: "LC",
@@ -1360,6 +1517,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gardevoir: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gardevoirmega: {
       isNonstandard: "Past",
@@ -1367,6 +1525,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gallade: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gallademega: {
       isNonstandard: "Past",
@@ -1377,12 +1536,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     masquerain: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shroomish: {
       tier: "LC",
     },
     breloom: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     slakoth: {
       tier: "LC",
@@ -1392,15 +1553,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     slaking: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     nincada: {
       tier: "LC",
     },
     ninjask: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shedinja: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     whismur: {
       tier: "LC",
@@ -1410,18 +1574,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     exploud: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     makuhita: {
       tier: "LC",
     },
     hariyama: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     nosepass: {
       tier: "LC",
     },
     probopass: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     skitty: {
       isNonstandard: "Past",
@@ -1433,6 +1600,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     sableye: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sableyemega: {
       isNonstandard: "Past",
@@ -1440,6 +1608,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     mawile: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mawilemega: {
       isNonstandard: "Past",
@@ -1453,6 +1622,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     aggron: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     aggronmega: {
       isNonstandard: "Past",
@@ -1484,15 +1654,19 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     plusle: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     minun: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     volbeat: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     illumise: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     budew: {
       tier: "LC",
@@ -1502,6 +1676,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     roserade: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gulpin: {
       isNonstandard: "Past",
@@ -1516,6 +1691,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     sharpedo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sharpedomega: {
       isNonstandard: "Past",
@@ -1526,12 +1702,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     wailord: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     numel: {
       tier: "LC",
     },
     camerupt: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cameruptmega: {
       isNonstandard: "Past",
@@ -1539,6 +1717,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     torkoal: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     spoink: {
       isNonstandard: "Past",
@@ -1550,6 +1729,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     spinda: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     trapinch: {
       tier: "LC",
@@ -1559,6 +1739,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     flygon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cacnea: {
       tier: "Uber",
@@ -1588,45 +1769,53 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     lunatone: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     solrock: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     barboach: {
       tier: "LC",
     },
     whiscash: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     corphish: {
       tier: "LC",
     },
     crawdaunt: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     baltoy: {
       tier: "LC",
     },
     claydol: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lileep: {
       tier: "LC",
     },
     cradily: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     anorith: {
       tier: "LC",
     },
     armaldo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     feebas: {
       tier: "LC",
     },
     milotic: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     castform: {
       isNonstandard: "Past",
@@ -1646,6 +1835,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     kecleon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shuppet: {
       isNonstandard: "Past",
@@ -1667,18 +1857,22 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     dusknoir: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tropius: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     chingling: {
       tier: "LC",
     },
     chimecho: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     absol: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     absolmega: {
       isNonstandard: "Past",
@@ -1708,21 +1902,26 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     walrein: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     clamperl: {
       tier: "LC",
     },
     huntail: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gorebyss: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     relicanth: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     luvdisc: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     bagon: {
       tier: "LC",
@@ -1732,6 +1931,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     salamence: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     salamencemega: {
       isNonstandard: "Past",
@@ -1745,6 +1945,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     metagross: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     metagrossmega: {
       isNonstandard: "Past",
@@ -1830,6 +2031,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     torterra: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     chimchar: {
       tier: "LC",
@@ -1839,6 +2041,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     infernape: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     piplup: {
       tier: "LC",
@@ -1848,6 +2051,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     empoleon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     starly: {
       tier: "LC",
@@ -1857,18 +2061,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     staraptor: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     bidoof: {
       tier: "LC",
     },
     bibarel: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     kricketot: {
       tier: "LC",
     },
     kricketune: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shinx: {
       tier: "LC",
@@ -1878,18 +2085,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     luxray: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cranidos: {
       tier: "LC",
     },
     rampardos: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shieldon: {
       tier: "LC",
     },
     bastiodon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     burmy: {
       isNonstandard: "Past",
@@ -1916,15 +2126,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     vespiquen: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pachirisu: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     buizel: {
       tier: "LC",
     },
     floatzel: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cherubi: {
       isNonstandard: "Past",
@@ -1942,18 +2155,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gastrodon: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     drifloon: {
       tier: "LC",
     },
     drifblim: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     buneary: {
       tier: "LC",
     },
     lopunny: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lopunnymega: {
       isNonstandard: "Past",
@@ -1985,9 +2201,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     chatot: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     spiritomb: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gible: {
       tier: "Uber",
@@ -2007,6 +2225,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     lucario: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lucariomega: {
       isNonstandard: "Past",
@@ -2017,6 +2236,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     hippowdon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     skorupi: {
       isNonstandard: "Past",
@@ -2036,12 +2256,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     carnivine: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     finneon: {
       tier: "LC",
     },
     lumineon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     snover: {
       isNonstandard: "Past",
@@ -2163,6 +2385,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     serperior: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tepig: {
       tier: "LC",
@@ -2172,6 +2395,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     emboar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     oshawott: {
       tier: "LC",
@@ -2181,15 +2405,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     samurott: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     samurotthisui: {
-      tier: "UU",
+      tier: "OU",
+      doublesTier: "DOU",
     },
     patrat: {
       tier: "LC",
     },
     watchog: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lillipup: {
       tier: "LC",
@@ -2199,12 +2426,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     stoutland: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     purrloin: {
       tier: "LC",
     },
     liepard: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pansage: {
       isNonstandard: "Past",
@@ -2246,6 +2475,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     unfezant: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     blitzle: {
       isNonstandard: "Past",
@@ -2263,12 +2493,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gigalith: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     woobat: {
       tier: "LC",
     },
     swoobat: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     drilbur: {
       isNonstandard: "Past",
@@ -2294,6 +2526,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     conkeldurr: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tympole: {
       isNonstandard: "Past",
@@ -2335,36 +2568,45 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     scolipede: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cottonee: {
       tier: "LC",
     },
     whimsicott: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     petilil: {
       tier: "LC",
     },
     lilligant: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lilliganthisui: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     basculin: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     basculinbluestriped: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     basculinwhitestriped: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     basculegion: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     basculegionf: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sandile: {
       tier: "LC",
@@ -2374,6 +2616,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     krookodile: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     darumaka: {
       tier: "LC",
@@ -2384,6 +2627,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     darmanitan: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     darmanitanzen: {
       isNonstandard: "Past",
@@ -2397,21 +2641,25 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     maractus: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     dwebble: {
       tier: "LC",
     },
     crustle: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     scraggy: {
       tier: "LC",
     },
     scrafty: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sigilyph: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     yamask: {
       tier: "LC",
@@ -2422,6 +2670,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     cofagrigus: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     runerigus: {
       isNonstandard: "Past",
@@ -2432,12 +2681,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     carracosta: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     archen: {
       tier: "LC",
     },
     archeops: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     trubbish: {
       isNonstandard: "Past",
@@ -2459,9 +2710,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     zoroark: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     zoroarkhisui: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     minccino: {
       isNonstandard: "Past",
@@ -2500,6 +2753,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     swanna: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     vanillite: {
       isNonstandard: "Past",
@@ -2518,42 +2772,50 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     sawsbuck: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     emolga: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     karrablast: {
       tier: "LC",
     },
     escavalier: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     foongus: {
       tier: "LC",
     },
     amoonguss: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     frillish: {
       tier: "LC",
     },
     jellicent: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     alomomola: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     joltik: {
       tier: "LC",
     },
     galvantula: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     ferroseed: {
       tier: "LC",
     },
     ferrothorn: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     klink: {
       tier: "LC",
@@ -2563,6 +2825,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     klinklang: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tynamo: {
       isNonstandard: "Past",
@@ -2581,6 +2844,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     beheeyem: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     litwick: {
       tier: "LC",
@@ -2590,6 +2854,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     chandelure: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     axew: {
       isNonstandard: "Past",
@@ -2608,15 +2873,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     beartic: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cryogonal: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     shelmet: {
       tier: "LC",
     },
     accelgor: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     stunfisk: {
       isNonstandard: "Past",
@@ -2643,6 +2911,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     golurk: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pawniard: {
       isNonstandard: "Past",
@@ -2654,12 +2923,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     bouffalant: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     rufflet: {
       tier: "LC",
     },
     braviary: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     braviaryhisui: {
       isNonstandard: "Past",
@@ -2675,9 +2946,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     heatmor: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     durant: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     deino: {
       tier: "LC",
@@ -2687,12 +2960,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     hydreigon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     larvesta: {
       tier: "LC",
     },
     volcarona: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     cobalion: {
       isNonstandard: "Past",
@@ -2778,6 +3053,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     chesnaught: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     fennekin: {
       tier: "LC",
@@ -2787,6 +3063,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     delphox: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     froakie: {
       tier: "LC",
@@ -2796,6 +3073,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     greninja: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     greninjabond: {
       isNonstandard: "Past",
@@ -2810,6 +3088,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     diggersby: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     fletchling: {
       tier: "LC",
@@ -2819,6 +3098,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     talonflame: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     scatterbug: {
       tier: "LC",
@@ -2828,12 +3108,15 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     vivillon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     vivillonfancy: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     vivillonpokeball: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     litleo: {
       isNonstandard: "Past",
@@ -2855,6 +3138,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     florges: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     skiddo: {
       isNonstandard: "Past",
@@ -2896,6 +3180,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     aegislash: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     aegislashblade: {
       isNonstandard: "Past",
@@ -2930,18 +3215,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     barbaracle: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     skrelp: {
       tier: "LC",
     },
     dragalge: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     clauncher: {
       tier: "LC",
     },
     clawitzer: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     helioptile: {
       isNonstandard: "Past",
@@ -2956,12 +3244,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     tyrantrum: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     amaura: {
       tier: "LC",
     },
     aurorus: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     hawlucha: {
       isNonstandard: "Past",
@@ -2973,6 +3263,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     carbink: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     goomy: {
       tier: "LC",
@@ -2985,18 +3276,22 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     goodra: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     goodrahisui: {
-      tier: "UU",
+      tier: "OU",
+      doublesTier: "DOU",
     },
     klefki: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     phantump: {
       tier: "LC",
     },
     trevenant: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pumpkaboo: {
       tier: "LC",
@@ -3012,6 +3307,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gourgeist: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gourgeistsmall: {
       isNonstandard: "Past",
@@ -3027,6 +3323,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     avalugg: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     avalugghisui: {
       isNonstandard: "Past",
@@ -3092,9 +3389,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     decidueye: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     decidueyehisui: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     litten: {
       tier: "LC",
@@ -3104,6 +3403,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     incineroar: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     popplio: {
       tier: "LC",
@@ -3113,6 +3413,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     primarina: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     pikipek: {
       tier: "LC",
@@ -3122,6 +3423,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     toucannon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     yungoos: {
       isNonstandard: "Past",
@@ -3156,6 +3458,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     crabominable: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     oricorio: {
       isNonstandard: "Past",
@@ -3178,6 +3481,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     ribombee: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ribombeetotem: {
       isNonstandard: "Past",
@@ -3205,6 +3509,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     wishiwashi: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     wishiwashischool: {
       isNonstandard: "Past",
@@ -3214,18 +3519,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     toxapex: {
       tier: "Uber",
+      doublesTier: "DOU",
     },
     mudbray: {
       tier: "LC",
     },
     mudsdale: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     dewpider: {
       tier: "LC",
     },
     araquanid: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     araquanidtotem: {
       isNonstandard: "Past",
@@ -3236,6 +3544,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     lurantis: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lurantistotem: {
       isNonstandard: "Past",
@@ -3246,12 +3555,14 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     shiinotic: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     salandit: {
       tier: "LC",
     },
     salazzle: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     salazzletotem: {
       isNonstandard: "Past",
@@ -3262,6 +3573,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     bewear: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     bounsweet: {
       tier: "LC",
@@ -3271,9 +3583,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     tsareena: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     comfey: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     oranguru: {
       isNonstandard: "Past",
@@ -3288,15 +3602,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     golisopod: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     sandygast: {
       tier: "LC",
     },
     palossand: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pyukumuku: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     typenull: {
       isNonstandard: "Past",
@@ -3380,9 +3697,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     komala: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     turtonator: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     togedemaru: {
       isNonstandard: "Past",
@@ -3394,6 +3713,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     mimikyu: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     mimikyubusted: {
       isNonstandard: "Past",
@@ -3409,6 +3729,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     bruxish: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     drampa: {
       isNonstandard: "Past",
@@ -3416,6 +3737,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     dhelmise: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     jangmoo: {
       tier: "LC",
@@ -3425,6 +3747,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     kommoo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     kommoototem: {
       isNonstandard: "Past",
@@ -3558,6 +3881,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     rillaboom: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     rillaboomgmax: {
       isNonstandard: "Past",
@@ -3571,6 +3895,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     cinderace: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cinderacegmax: {
       isNonstandard: "Past",
@@ -3584,6 +3909,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     inteleon: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     inteleongmax: {
       isNonstandard: "Past",
@@ -3605,6 +3931,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     corviknight: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     corviknightgmax: {
       isNonstandard: "Past",
@@ -3631,18 +3958,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     thievul: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     gossifleur: {
       tier: "LC",
     },
     eldegoss: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     wooloo: {
       tier: "LC",
     },
     dubwool: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     chewtle: {
       isNonstandard: "Past",
@@ -3661,6 +3991,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     boltund: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     rolycoly: {
       isNonstandard: "Past",
@@ -3716,18 +4047,22 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     cramorant: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cramorantgulping: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cramorantgorging: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     arrokuda: {
       tier: "LC",
     },
     barraskewda: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     toxel: {
       isNonstandard: "Past",
@@ -3754,6 +4089,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     centiskorch: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     centiskorchgmax: {
       isNonstandard: "Past",
@@ -3791,6 +4127,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     hatterene: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     hatterenegmax: {
       isNonstandard: "Past",
@@ -3804,6 +4141,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     grimmsnarl: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     grimmsnarlgmax: {
       isNonstandard: "Past",
@@ -3814,6 +4152,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     alcremie: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     alcremiegmax: {
       isNonstandard: "Past",
@@ -3821,9 +4160,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     falinks: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     pincurchin: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     snom: {
       isNonstandard: "Past",
@@ -3835,9 +4176,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     stonjourner: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     eiscue: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     eiscuenoice: {
       isNonstandard: "Past",
@@ -3864,6 +4207,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     copperajah: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     copperajahgmax: {
       isNonstandard: "Past",
@@ -3871,15 +4215,19 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     dracozolt: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     arctozolt: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     dracovish: {
       tier: "Uber",
+      doublesTier: "DOU",
     },
     arctovish: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     duraludon: {
       isNonstandard: "Past",
@@ -3897,6 +4245,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     dragapult: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     zacian: {
       isNonstandard: "Past",
@@ -3994,6 +4343,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     meowscarada: {
       tier: "OU",
+      doublesTier: "(DOU)",
     },
     fuecoco: {
       tier: "LC",
@@ -4003,6 +4353,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     skeledirge: {
       tier: "UU",
+      doublesTier: "(DUU)",
     },
     quaxly: {
       tier: "LC",
@@ -4012,15 +4363,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     quaquaval: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     lechonk: {
       tier: "LC",
     },
     oinkologne: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     oinkolognef: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     tarountula: {
       isNonstandard: "Past",
@@ -4059,24 +4413,29 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     espathra: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     wiglett: {
       tier: "LC",
     },
     wugtrio: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     dondozo: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     veluza: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     finizen: {
       tier: "LC",
     },
     palafin: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     palafinhero: {
       isNonstandard: "Past",
@@ -4115,6 +4474,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     revavroom: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     orthworm: {
       isNonstandard: "Past",
@@ -4125,15 +4485,18 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     maushold: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     mausholdfour: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cetoddle: {
       tier: "LC",
     },
     cetitan: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     frigibax: {
       isNonstandard: "Past",
@@ -4149,6 +4512,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     tatsugiri: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     cyclizar: {
       isNonstandard: "Past",
@@ -4171,6 +4535,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     kilowattrel: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     bombirdier: {
       isNonstandard: "Past",
@@ -4178,21 +4543,27 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     squawkabilly: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     squawkabillyblue: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     squawkabillyyellow: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     squawkabillywhite: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     flamigo: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     klawf: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     nacli: {
       tier: "LC",
@@ -4202,30 +4573,35 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     garganacl: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     glimmet: {
       tier: "LC",
     },
     glimmora: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     shroodle: {
       tier: "LC",
     },
     grafaiai: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     fidough: {
       tier: "LC",
     },
     dachsbun: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     maschiff: {
       tier: "LC",
     },
     mabosstiff: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     bramblin: {
       isNonstandard: "Past",
@@ -4243,6 +4619,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     gholdengo: {
       tier: "Uber",
+      doublesTier: "DOU",
     },
     greattusk: {
       isNonstandard: "Past",
@@ -4332,21 +4709,26 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     tinkaton: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     charcadet: {
       tier: "LC",
     },
     armarouge: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     ceruledge: {
       tier: "UU",
+      doublesTier: "DUU",
     },
     toedscool: {
-      tier: "LC",
+      isNonstandard: "Past",
+      tier: "Illegal",
     },
     toedscruel: {
-      tier: "UU",
+      isNonstandard: "Past",
+      tier: "Illegal",
     },
     kingambit: {
       isNonstandard: "Past",
@@ -4354,9 +4736,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
     },
     clodsire: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     annihilape: {
       tier: "OU",
+      doublesTier: "DOU",
     },
     walkingwake: {
       isNonstandard: "Past",

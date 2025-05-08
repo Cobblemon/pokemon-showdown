@@ -104,18 +104,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[Gen 9] 2v2 Doubles",
-		desc: `Double battle where you bring four Pok&eacute;mon to Team Preview and choose only two.`,
+		name: "[Gen 9] Doubles OU",
 		mod: 'gen9',
 		gameType: 'doubles',
-		searchShow: false,
-		ruleset: [
-			'Picked Team Size = 2', 'Max Team Size = 4',
-			'Standard Doubles', 'Accuracy Moves Clause', 'Terastal Clause', 'Sleep Clause Mod', 'Evasion Items Clause',
-		],
-		banlist: [
-			'Commander', 'Moody', 'Focus Sash', 'King\'s Rock', 'Razor Fang', 'Ally Switch', 'Final Gambit', 'Perish Song', 'Swagger',
-		],
+		ruleset: ['Standard Doubles', 'Evasion Abilities Clause'],
+		banlist: ['DUber', 'Shadow Tag'],
+	},
+	{
+		name: "[Gen 9] Doubles UU",
+		mod: 'gen9',
+		gameType: 'doubles',
+		ruleset: ['[Gen 9] Doubles OU'],
+		banlist: ['DOU', 'DBL'],
 	},
 	{
 		name: "[Gen 9] Anything Goes",
