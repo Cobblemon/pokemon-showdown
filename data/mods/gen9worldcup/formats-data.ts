@@ -3875,7 +3875,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "UU",
 	},
 	dracovish: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	arctovish: {
 		tier: "UU",
