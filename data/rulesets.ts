@@ -19,7 +19,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 	standard: {
 		effectType: 'ValidatorRule',
 		name: 'Standard',
-		desc: "The standard ruleset for all offical Smogon singles tiers (Ubers, OU, etc.)",
+		desc: "The standard ruleset for all official Smogon singles tiers (Ubers, OU, etc.)",
 		ruleset: [
 			'Standard AG',
 			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause',
@@ -38,7 +38,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		effectType: 'ValidatorRule',
 		name: 'Flat Rules',
 		desc: "The in-game Flat Rules: Adjust Level Down 50, Species Clause, Item Clause = 1, -Mythical, -Restricted Legendary, Bring 6 Pick 3-6 depending on game type.",
-		ruleset: ['Team Preview', 'Species Clause', 'Nickname Clause', 'Item Clause = 1', 'Adjust Level Down = 50', 'Picked Team Size = Auto', 'Cancel Mod'],
+		ruleset: ['Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'Item Clause = 1', 'Adjust Level Down = 50', 'Picked Team Size = Auto', 'Cancel Mod'],
 		banlist: ['Mythical', 'Restricted Legendary', 'Greninja-Bond'],
 	},
 	limittworestricted: {
@@ -1108,7 +1108,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			}
 
 			const speedBoostedAbilities = ['motordrive', 'rattled', 'speedboost', 'steadfast', 'weakarmor'];
-			const speedBoostedItems = ['salacberry'];
+			const speedBoostedItems = ['blazikenite', 'eeviumz', 'kommoniumz', 'salacberry'];
 			if (speedBoostedAbilities.includes(ability) || speedBoostedItems.includes(item.id)) {
 				speedBoosted = true;
 			}
@@ -1118,8 +1118,8 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 				'angerpoint', 'competitive', 'defiant', 'download', 'justified', 'lightningrod', 'moxie', 'sapsipper', 'stormdrain',
 			];
 			const nonSpeedBoostedItems = [
-				'absorbbulb', 'apicotberry', 'cellbattery', 'ganlonberry', 'keeberry', 'liechiberry',
-				'marangaberry', 'petayaberry', 'snowball', 'starfberry', 'weaknesspolicy',
+				'absorbbulb', 'apicotberry', 'cellbattery', 'eeviumz', 'ganlonberry', 'keeberry', 'kommoniumz', 'liechiberry',
+				'luminousmoss', 'marangaberry', 'petayaberry', 'snowball', 'starfberry', 'weaknesspolicy',
 			];
 			if (nonSpeedBoostedAbilities.includes(ability) || nonSpeedBoostedItems.includes(item.id)) {
 				nonSpeedBoosted = true;
@@ -1191,9 +1191,9 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		onValidateTeam(team) {
 			const boostingEffects = [
 				'absorbbulb', 'acidarmor', 'acupressure', 'agility', 'amnesia', 'ancientpower', 'angerpoint', 'apicotberry', 'autotomize',
-				'barrier', 'bellydrum', 'bulkup', 'calmmind', 'cellbattery', 'chargebeam', 'coil', 'cosmicpower', 'cottonguard', 'curse',
-				'defendorder', 'defiant', 'download', 'dragondance', 'fierydance', 'flamecharge', 'focusenergy', 'ganlonberry', 'growth',
-				'harden', 'honeclaws', 'howl', 'irondefense', 'justified', 'liechiberry', 'lightningrod', 'meditate', 'metalclaw',
+				'barrier', 'bellydrum', 'bulkup', 'calmmind', 'cellbattery', 'charge', 'chargebeam', 'coil', 'cosmicpower', 'cottonguard', 'curse',
+				'defensecurl', 'defendorder', 'defiant', 'download', 'dragondance', 'fierydance', 'flamecharge', 'focusenergy', 'ganlonberry', 'growth',
+				'harden', 'honeclaws', 'howl', 'irondefense', 'justified', 'lansatberry', 'liechiberry', 'lightningrod', 'meditate', 'metalclaw',
 				'meteormash', 'motordrive', 'moxie', 'nastyplot', 'ominouswind', 'petayaberry', 'quiverdance', 'rage', 'rattled',
 				'rockpolish', 'salacberry', 'sapsipper', 'sharpen', 'shellsmash', 'shiftgear', 'silverwind', 'skullbash', 'speedboost',
 				'starfberry', 'steadfast', 'steelwing', 'stockpile', 'stormdrain', 'swordsdance', 'tailglow', 'weakarmor', 'withdraw',
@@ -1219,6 +1219,27 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			}
 		},
 	},
+	batonpasstrapclause: {
+		effectType: 'ValidatorRule',
+		name: 'Baton Pass Trap Clause',
+		desc: "Stops teams from having a Pok&eacute;mon with Baton Pass that has any way to trap Pok&eacute;mon.",
+		onBegin() {
+			this.add('rule', 'Baton Pass Trap Clause: No Baton Passer may have a way to trap Pok\u00e9mon');
+		},
+		onValidateTeam(team, format, teamHas) {
+			const trappingMoves = ['block', 'fairylock', 'meanlook', 'octolock', 'spiderweb'];
+			let name = '';
+			const bpAndTrap = team.some(set => {
+				name = set.name || set.species;
+				return set.moves.includes('batonpass') && set.moves.some(move => trappingMoves.includes(move));
+			});
+			if (bpAndTrap) {
+				return [
+					`${name} has Baton Pass and a way to pass trapping, which is banned by Baton Pass Trap Clause.`,
+				];
+			}
+		},
+	},
 	batonpassstattrapclause: {
 		effectType: 'ValidatorRule',
 		name: 'Baton Pass Stat Trap Clause',
@@ -1233,7 +1254,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 				'Iron Defense', 'Ingrain', 'Mean Look', 'Meteor Mash', 'Meditate', 'Metal Claw', 'Nasty Plot', 'Ominous Wind', 'Power Trick', 'Psych Up', 'Rage',
 				'Rock Polish', 'Sharpen', 'Silver Wind', 'Skull Bash', 'Spider Web', 'Steel Wing', 'Stockpile', 'Swords Dance', 'Tail Glow', 'Withdraw', 'Speed Boost',
 				'Apicot Berry', 'Ganlon Berry', 'Liechi Berry', 'Petaya Berry', 'Salac Berry', 'Starf Berry', 'Kee Berry', 'Maranga Berry', 'Weakness Policy',
-				'Blunder Policy', 'Snowball', 'Throat Spray', 'Mirror Herb',
+				'Blunder Policy', 'Luminiscent Moss', 'Snowball', 'Throat Spray', 'Mirror Herb', 'Adrenaline Orb',
 			].map(this.toID);
 			for (const set of team) {
 				if (!set.moves.map(this.toID).includes('batonpass' as ID)) continue;
@@ -2119,6 +2140,19 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			pokemon.trapped = true;
 		},
 	},
+	guaranteedsecondarymod: {
+		effectType: 'Rule',
+		name: 'Guaranteed Secondary Mod',
+		desc: 'All moves\' secondary effect chances are set to 100% (Tri Attack and Dire Claw set a random status; Poison Touch is not a real secondary and remains at 30%).',
+		onModifyMove(move) {
+			if (move.secondaries) {
+				this.debug('Freeze test: Guaranteeing secondary');
+				for (const secondary of move.secondaries) {
+					secondary.chance = 100;
+				}
+			}
+		},
+	},
 	chimera1v1rule: {
 		effectType: 'Rule',
 		name: 'Chimera 1v1 Rule',
@@ -2526,8 +2560,8 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 				let species = this.dex.species.get(set.species);
 				if (typeof species.battleOnly === 'string') species = this.dex.species.get(species.battleOnly);
 				if (
-					(species.baseSpecies === 'Zamazenta' && this.toID(set.item)) ||
-					(species.baseSpecies === 'Zacian' && this.toID(set.item))
+					(species.baseSpecies === 'Zamazenta' && this.toID(set.item) === 'rustedshield') ||
+					(species.baseSpecies === 'Zacian' && this.toID(set.item) === 'rustedsword')
 				) {
 					species = this.dex.species.get(`${species.baseSpecies}-Crowned`);
 				}
@@ -2537,7 +2571,8 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 						species = this.dex.species.get(item.megaStone);
 					}
 				}
-				if (this.ruleTable.isRestrictedSpecies(species)) {
+				if (this.ruleTable.isRestrictedSpecies(species) ||
+					(this.ruleTable.isRestricted('ability:powerconstruct') && this.toID(set.ability) === 'powerconstruct')) {
 					gods.add(species.name);
 				}
 			}
@@ -2550,7 +2585,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			if (source || !target?.side) return;
 			const god = target.side.team.find(set => {
 				let godSpecies = this.dex.species.get(set.species);
-				if (this.toID(set.ability) === 'powerconstruct') {
+				if (this.toID(set.ability) === 'powerconstruct' && this.ruleTable.isRestricted('ability:powerconstruct')) {
 					return true;
 				}
 				if (set.item) {
@@ -2630,12 +2665,12 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		effectType: 'ValidatorRule',
 		name: "Hackmons Forme Legality",
 		desc: `Enforces proper forme legality for hackmons-based metagames.`,
-		banlist: ['CAP', 'LGPE', 'Future'],
+		banlist: ['CAP', 'Future'],
 		onChangeSet(set, format, setHas, teamHas) {
 			let species = this.dex.species.get(set.species);
 			if (
 				(species.natDexTier === 'Illegal' || species.forme.includes('Totem')) &&
-				!['Floette-Eternal', 'Greninja-Ash', 'Xerneas-Neutral'].includes(species.name) &&
+				!['Eevee-Starter', 'Floette-Eternal', 'Greninja-Ash', 'Pikachu-Starter', 'Xerneas-Neutral'].includes(species.name) &&
 				!this.ruleTable.has(`+pokemon:${species.id}`)
 			) {
 				return [`${species.name} is illegal.`];
@@ -2909,5 +2944,144 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		name: "Mix and Mega Old Aggronite",
 		desc: `Causes Aggronite to no longer give the Steel type in Mix and Mega.`,
 		// implemented in mods/mixandmega/scripts.ts
+	},
+	badnboostedmod: {
+		effectType: 'Rule',
+		name: "Bad 'n Boosted Mod",
+		desc: "All of a Pok&eacute;mon's base stats below 70 are doubled.",
+		onBegin() {
+			this.add('rule', 'Bad \'n Boosted Mod: All of a Pokemon\'s base stats below 70 are doubled.');
+		},
+		onModifySpeciesPriority: 2,
+		onModifySpecies(species) {
+			const newSpecies = this.dex.deepClone(species);
+			newSpecies.bst = 0;
+			for (const stat in newSpecies.baseStats) {
+				if (newSpecies.baseStats[stat] <= 70) {
+					newSpecies.baseStats[stat] = this.clampIntRange(newSpecies.baseStats[stat] * 2, 1, 255);
+				}
+				newSpecies.bst += newSpecies.baseStats[stat];
+			}
+			return newSpecies;
+		},
+	},
+	datapreview: {
+		effectType: 'Rule',
+		name: 'Data Preview',
+		desc: 'When a new Pokémon switches in for the first time, information about its types, stats and Abilities is displayed to both players.',
+		onSwitchIn(pokemon) {
+			const species = pokemon.illusion?.species || pokemon.species;
+			const gen = this.gen;
+
+			if (pokemon.illusion) {
+				pokemon.m.revealed = false;
+			}
+
+			// Recreation of Chat.getDataPokemonHTML
+			let buf = '<li class="result">';
+			buf += `<span class="col numcol">${species.tier}</span> `;
+			buf += `<span class="col iconcol"><psicon pokemon="${species.id}"/></span> `;
+			buf += `<span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://${Config.routes.dex}/pokemon/${species.id}" target="_blank">${species.name}</a></span> `;
+			buf += '<span class="col typecol">';
+			if (species.types) {
+				for (const type of species.types) {
+					buf += `<img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
+				}
+			}
+			buf += '</span> ';
+			if (gen >= 3) {
+				buf += '<span style="float:left;min-height:26px">';
+				if (species.abilities['1'] && (gen >= 4 || Dex.abilities.get(species.abilities['1']).gen === 3)) {
+					buf += `<span class="col twoabilitycol">${species.abilities['0']}<br />${species.abilities['1']}</span>`;
+				} else {
+					buf += `<span class="col abilitycol">${species.abilities['0']}</span>`;
+				}
+				if (species.abilities['H'] && species.abilities['S']) {
+					buf += `<span class="col twoabilitycol${species.unreleasedHidden ? ' unreleasedhacol' : ''}"><em>${species.abilities['H']}<br />(${species.abilities['S']})</em></span>`;
+				} else if (species.abilities['H']) {
+					buf += `<span class="col abilitycol${species.unreleasedHidden ? ' unreleasedhacol' : ''}"><em>${species.abilities['H']}</em></span>`;
+				} else if (species.abilities['S']) {
+					// special case for Zygarde
+					buf += `<span class="col abilitycol"><em>(${species.abilities['S']})</em></span>`;
+				} else {
+					buf += '<span class="col abilitycol"></span>';
+				}
+				buf += '</span>';
+			}
+			buf += '<span style="float:left;min-height:26px">';
+			buf += `<span class="col statcol"><em>HP</em><br />${species.baseStats.hp}</span> `;
+			buf += `<span class="col statcol"><em>Atk</em><br />${species.baseStats.atk}</span> `;
+			buf += `<span class="col statcol"><em>Def</em><br />${species.baseStats.def}</span> `;
+			if (gen <= 1) {
+				buf += `<span class="col statcol"><em>Spc</em><br />${species.baseStats.spa}</span> `;
+			} else {
+				buf += `<span class="col statcol"><em>SpA</em><br />${species.baseStats.spa}</span> `;
+				buf += `<span class="col statcol"><em>SpD</em><br />${species.baseStats.spd}</span> `;
+			}
+			buf += `<span class="col statcol"><em>Spe</em><br />${species.baseStats.spe}</span> `;
+			buf += `<span class="col bstcol"><em>BST<br />${species.bst}</em></span> `;
+			buf += '</span>';
+			buf += '</li>';
+			buf = `<div class="message"><ul class="utilichart">${buf}<li style="clear:both"></li></ul></div>`;
+			this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
+			this.add(`raw|${buf}`);
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (target.hasAbility('illusion') && !target.m.revealed) {
+				const species = target.species;
+				const gen = this.gen;
+
+				// Recreation of Chat.getDataPokemonHTML
+				let buf = '<li class="result">';
+				buf += `<span class="col numcol">${species.tier}</span> `;
+				buf += `<span class="col iconcol"><psicon pokemon="${species.id}"/></span> `;
+				buf += `<span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://${Config.routes.dex}/pokemon/${species.id}" target="_blank">${species.name}</a></span> `;
+				buf += '<span class="col typecol">';
+				if (species.types) {
+					for (const type of species.types) {
+						buf += `<img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
+					}
+				}
+				buf += '</span> ';
+				if (gen >= 3) {
+					buf += '<span style="float:left;min-height:26px">';
+					if (species.abilities['1'] && (gen >= 4 || Dex.abilities.get(species.abilities['1']).gen === 3)) {
+						buf += `<span class="col twoabilitycol">${species.abilities['0']}<br />${species.abilities['1']}</span>`;
+					} else {
+						buf += `<span class="col abilitycol">${species.abilities['0']}</span>`;
+					}
+					if (species.abilities['H'] && species.abilities['S']) {
+						buf += `<span class="col twoabilitycol${species.unreleasedHidden ? ' unreleasedhacol' : ''}"><em>${species.abilities['H']}<br />(${species.abilities['S']})</em></span>`;
+					} else if (species.abilities['H']) {
+						buf += `<span class="col abilitycol${species.unreleasedHidden ? ' unreleasedhacol' : ''}"><em>${species.abilities['H']}</em></span>`;
+					} else if (species.abilities['S']) {
+						// special case for Zygarde
+						buf += `<span class="col abilitycol"><em>(${species.abilities['S']})</em></span>`;
+					} else {
+						buf += '<span class="col abilitycol"></span>';
+					}
+					buf += '</span>';
+				}
+				buf += '<span style="float:left;min-height:26px">';
+				buf += `<span class="col statcol"><em>HP</em><br />${species.baseStats.hp}</span> `;
+				buf += `<span class="col statcol"><em>Atk</em><br />${species.baseStats.atk}</span> `;
+				buf += `<span class="col statcol"><em>Def</em><br />${species.baseStats.def}</span> `;
+				if (gen <= 1) {
+					buf += `<span class="col statcol"><em>Spc</em><br />${species.baseStats.spa}</span> `;
+				} else {
+					buf += `<span class="col statcol"><em>SpA</em><br />${species.baseStats.spa}</span> `;
+					buf += `<span class="col statcol"><em>SpD</em><br />${species.baseStats.spd}</span> `;
+				}
+				buf += `<span class="col statcol"><em>Spe</em><br />${species.baseStats.spe}</span> `;
+				buf += `<span class="col bstcol"><em>BST<br />${species.bst}</em></span> `;
+				buf += '</span>';
+				buf += '</li>';
+				buf = `<div class="message"><ul class="utilichart">${buf}<li style="clear:both"></li></ul></div>`;
+
+				this.add('-start', target, 'typechange', target.getTypes(true).join('/'), '[silent]');
+				this.add(`raw|${buf}`);
+				target.m.revealed = true;
+			}
+		},
 	},
 };
