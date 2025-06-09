@@ -124,7 +124,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] VGC",
-		mod: 'gen9',
+		mod: 'gen9worldcup',
 		gameType: 'doubles',
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', 'Limit Two Restricted', 'Terastal Clause'],
 		restricted: ['Restricted Legendary'],
