@@ -931,12 +931,12 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			for (const set of team) {
 				const ability = this.toID(set.ability);
 				if (!ability) continue;
-				if (regenCount >= num) {
+				if (ability === 'regenerator') regenCount++;
+				if (regenCount > num) {
 					return [
 						`You are limited to ${num} Regenerator by Regen Clause.`,
 					];
 				}
-				if (ability === 'regenerator') regenCount++;
 			}
 		},
 	},
