@@ -911,6 +911,35 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			}
 		},
 	},
+	regenclause: {
+		effectType: 'ValidatorRule',
+		name: 'Regen Clause',
+		desc: "Prevents teams from having Pok&eacute;mon with the Regenerator ability than allowed",
+		hasValue: 'positive-integer',
+		onBegin() {
+			const num = this.ruleTable.valueRules.get('regenclause');
+			this.add('rule', `${num} Regen Clause: Limit ${num} of each ability`);
+		},
+		onValidateRule(value) {
+			const allowedAbilities = parseInt(value);
+			if (allowedAbilities < 1) throw new Error(`Must allow at least 1 of each ability`);
+		},
+		onValidateTeam(team) {
+			if (this.format.id === 'gen8multibility') return;
+			let regenCount = 0;
+			const num = parseInt(this.ruleTable.valueRules.get('regenclause')!);
+			for (const set of team) {
+				const ability = this.toID(set.ability);
+				if (!ability) continue;
+				if (ability === 'regenerator') regenCount++;
+				if (regenCount > num) {
+					return [
+						`You are limited to ${num} Regenerator by Regen Clause.`,
+					];
+				}
+			}
+		},
+	},
 	ohkoclause: {
 		effectType: 'ValidatorRule',
 		name: 'OHKO Clause',
